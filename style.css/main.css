@@ -19,7 +19,7 @@ nav{
 }
 .nav__menu ul{
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 .nav__menu ul li a{
     font-size: 15px;
@@ -40,6 +40,7 @@ nav{
 }
 
 .header__text{
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -52,15 +53,55 @@ nav{
     font-family: 'Roboto',sans-serif;
     line-height: 68px;
     letter-spacing: 1.5px;
+    color: #fff;
 }
-.header__text p{
+.header__text--parag1{
+    margin-top: 70px;
     font-size: 19px;
     line-height: 27px;
     color: #fff;
     letter-spacing: 0.2px;
 }
+.header__text--parag2{
+    margin-top: 16px;
+    font-size: 19px;
+    line-height: 27px;
+    color: #fff;
+    letter-spacing: 0.2px;
+}
+.header__btn{
+    margin-top: 54px;
+}
+.header__btn--white{
+    margin-right: 4px;
+    padding: 17px 40px 21px;
+    background-color: #fff;
+    color: #611F69;
+    font-family: 'Roboto',serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-radius: 4px;
+}
+.header__btn--blue{
+    padding: 17px 16px 21px 4px;
+    background-color: #4285F4;
+    font-family: 'Roboto',serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-radius: 4px;
+}
+
+.header__btn a img{
+    width: 49px;
+    height: 49px;
+    position: relative;
+    top: -15px;
+}
+
 .header__image{
     position: absolute;
-    right: 0%;
+    right: 0;
     top: 108px;
 }
