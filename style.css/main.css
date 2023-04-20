@@ -105,3 +105,22 @@ nav{
     right: 0;
     top: 108px;
 }
+
+main{
+    background: #F4EDE4;
+
+}
+
+main h1{
+    padding-top: 45px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Roboto",serif;
+}
+main ul{
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+}
